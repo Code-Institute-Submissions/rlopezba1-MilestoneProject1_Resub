@@ -1,0 +1,30 @@
+body {
+    font-family: 'Roboto',sans-serif;
+}
+
+.main-container {
+    height: 100vh;
+    background: url('../images/lighthouse.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+
+.jumbotron {
+    background-color: transparent;
+    width: 70%;
+}
+
+.jumbotron h1 {
+    color: white;
+    margin-bottom: 30px;
+}
+
