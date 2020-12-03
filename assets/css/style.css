@@ -2,6 +2,10 @@ body {
     font-family: 'Roboto',sans-serif;
 }
 
+.color-brand {
+    color: #ffc107;
+}
+
 .main-container {
     height: 100vh;
     background: url('../images/lighthouse.jpg');
@@ -30,12 +34,40 @@ body {
 
 /* Media query to size properly on the mobile phone size*/
 
-@media only screen and (max-width: 600px) {
-  .display-4 {
-    font-size: 1.5rem;
-    font-weight: 300;
-    line-height: 1.2;
-    margin: 0 auto;
-    padding-bottom: 10%;
+@media only screen and (max-width: 280px) {
+    .display-4 {
+        padding-top: 70%;
+        font-size: 1.5rem;
+        font-weight: 300;
+        line-height: 1.2;
+        margin: 0 auto;
+        padding-bottom: 10%;
+    }
+
+    .navbar-brand {
+        font-size: 1rem;
+        margin-left: 0;
+        padding-left: 0;
+    }
+
+    .navbar-text {
+        font-size: x-small;
+    }
 }
+
+@media only screen and (max-width: 320px) {
+    .navbar-text {
+        font-size: x-small;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+    .display-4 {
+        font-size: 1.5rem;
+        font-weight: 300;
+        line-height: 1.2;
+        margin: 0 auto;
+        padding-bottom: 10%;
+    }
 }
