@@ -7,6 +7,24 @@ body {
     color: #ffc107;
 }
 
+.card {
+      border: 1px solid #ccc;
+      background-color: #f4f4f4;
+      padding: 20px;      
+      margin-top: 8%;
+      height: 100%;
+      display: inline-block;      
+    }
+
+.card-body {
+    height: 100%;
+    margin-bottom: 5%;
+    padding-bottom: 20%;
+    margin: 0;
+    
+}
+
+    
 .main-container {
     height: 100vh;
     background: url('../images/lighthouse.jpg');
