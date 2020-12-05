@@ -19,13 +19,12 @@ body {
     object-fit: cover;
 }
 
-.carousel-item {
-    width: 100%;
-    height: 55vw;
-    object-fit: cover;
+.custom-centered {
+    margin: 0 auto;
+    width: 300px;
+}   
 
-}
-   
+
 .main-container {
     height: 100vh;
     background: url('../images/lighthouse.jpg');
