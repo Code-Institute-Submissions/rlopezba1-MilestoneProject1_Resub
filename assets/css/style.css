@@ -24,6 +24,22 @@ body {
     width: 300px;
 }   
 
+.card {
+    position: relative;
+    margin-top: 20%;
+    padding: 1%;
+    background-color: #e2e2e2;
+}
+
+.img-order {
+    order: 2;
+}
+
+
+.img-size {
+    width: 30%;
+    height: 30%;
+}
 
 .main-container {
     height: 100vh;
@@ -38,7 +54,9 @@ body {
     justify-content: center;
 
     position: relative;
+
 }
+
 
 
 .jumbotron {
