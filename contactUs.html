@@ -16,7 +16,7 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top">
+        <nav class="navbar navbar-expand-xl bg-dark navbar-dark fixed-top">
             <a class="navbar-brand ml-3" href="#">Lighthouse <span class="color-brand">Lawyers<span> </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
                 <span class="navbar-toggler-icon"></span>
@@ -53,62 +53,58 @@
     </header>
     <section>
         <div class="container">
-            <div class="row">
-                <div class="col">
+            <div class="row mt-5">                  
 
+                    <div class="col-12 col-md-12 mt-4">
+                    <!-- Default form contact -->
+                        <form class="text-center border border-light p-5 " action="#!">
 
-                    <div class="mapouter">
-                        <div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas"
-                                src="https://maps.google.com/maps?q=cork&t=&z=13&ie=UTF8&iwloc=&output=embed"
-                                frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
-                                href="https://embedgooglemap.net/134/">torrentz2</a></div>
-                        
-                            
+                            <p class="h4 mb-4">Contact us</p>
+
+                            <!-- Name -->
+                            <input type="text" id="defaultContactFormName" class="form-control mb-4" placeholder="Name">
+
+                            <!-- Email -->
+                            <input type="email" id="defaultContactFormEmail" class="form-control mb-4" placeholder="E-mail">
+
+                            <!-- Subject -->
+                            <label>Subject</label>
+                            <select class="browser-default custom-select mb-4">
+                                <option value="" disabled>Choose option</option>
+                                <option value="1" selected>Feedback</option>
+                                <option value="2">Divorce Law</option>
+                                <option value="3">Crime Law request</option>
+                                <option value="4">Tax Law</option>
+                            </select>
+
+                            <!-- Message -->
+                            <div class="form-group">
+                                <textarea class="form-control rounded-0" id="exampleFormControlTextarea2" rows="3"
+                                    placeholder="Message"></textarea>
+                            </div>
+
+                            <!-- Copy -->
+                            <div class="custom-control custom-checkbox mb-4">
+                                <input type="checkbox" class="custom-control-input" id="defaultContactFormCopy">
+                                <label class="custom-control-label" for="defaultContactFormCopy">Send me a copy of this
+                                    message</label>
+                            </div>
+
+                            <!-- Send button -->
+                            <button class="btn btn-primary btn-block" type="submit">Send</button>
+
+                        </form>
                     </div>
-                </div>
-                <div class="col">
-                    <!-- Default form contact -->
-                    <form class="text-center border border-light p-5 " action="#!">
+                    <!--Grid column-->
 
-                        <p class="h4 mb-4">Contact us</p>
+                    <!--Grid column-->
+                    <div class="col-12 col-md-10 maps float-center">
 
-                        <!-- Name -->
-                        <input type="text" id="defaultContactFormName" class="form-control mb-4" placeholder="Name">
-
-                        <!-- Email -->
-                        <input type="email" id="defaultContactFormEmail" class="form-control mb-4" placeholder="E-mail">
-
-                        <!-- Subject -->
-                        <label>Subject</label>
-                        <select class="browser-default custom-select mb-4">
-                            <option value="" disabled>Choose option</option>
-                            <option value="1" selected>Feedback</option>
-                            <option value="2">Report a bug</option>
-                            <option value="3">Feature request</option>
-                            <option value="4">Feature request</option>
-                        </select>
-
-                        <!-- Message -->
-                        <div class="form-group">
-                            <textarea class="form-control rounded-0" id="exampleFormControlTextarea2" rows="3"
-                                placeholder="Message"></textarea>
+                        <!--Google map-->
+                        <div id="map-container-google-11" class="iframe-container">
+                            <iframe src="https://maps.google.com/maps?q=cork&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
                         </div>
-
-                        <!-- Copy -->
-                        <div class="custom-control custom-checkbox mb-4">
-                            <input type="checkbox" class="custom-control-input" id="defaultContactFormCopy">
-                            <label class="custom-control-label" for="defaultContactFormCopy">Send me a copy of this
-                                message</label>
-                        </div>
-
-                        <!-- Send button -->
-                        <button class="btn btn-primary btn-block" type="submit">Send</button>
-
-                    </form>
-                    <!-- Default form contact -->
-
-
-                </div>
+                    </div>
             </div>
         </div>
 

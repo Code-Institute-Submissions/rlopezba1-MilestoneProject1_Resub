@@ -38,14 +38,17 @@
                                         <label for="email"></label>
                                         <input type="email" class="form-control" id="email" placeholder="Email" required>
                                     </div>
-                                    <div class="form-group">
-                                        <i class="fas fa-bars prefix grey-text text-primary"></i>
-                                        <label for="textarea"></label>
-                                        <textarea id="textarea" name="comment" placeholder="text" rows="4" cols="55">
-                                        </textarea>
+                                    <div class="mb-3">
+                                        <i class="fas fa-bars prefix grey-text text-primary "></i>
+                                        <label for="validationTextarea" class="form-label"></label>
+                                        <textarea class="form-control is-invalid" id="validationTextarea" placeholder="Text area" required></textarea>
+                                        <div class="invalid-feedback">
+                                        Please enter a message in the textarea.
+                                        </div>
                                     </div>
+   
                                     <div class="checkbox">
-                                        <label><input type="checkbox"> I will pay your morgage</label>
+                                        <label><input type="checkbox"> I accept the <a href="#"> Terms and conditions</a></label>
                                     </div>
                                 </form>
                             </div>
@@ -63,7 +66,7 @@
     </div>
 
     <header>
-            <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top">
+            <nav class="navbar navbar-expand-xl bg-dark navbar-dark fixed-top">
                 <a class="navbar-brand ml-3" href="#">Lighthouse <span class="color-brand">Lawyers<span> </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
                 <span class="navbar-toggler-icon"></span>
