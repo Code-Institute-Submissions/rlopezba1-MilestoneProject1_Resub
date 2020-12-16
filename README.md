@@ -15,6 +15,7 @@ but at the same time with a direct message of help and action so that the user c
 ## wireframes
 
 
+[wireframe in diferent sizes](https://github.com/rlopezba1/MilestoneProject1/blob/main/NewProject1.pdf)
 
 
 
