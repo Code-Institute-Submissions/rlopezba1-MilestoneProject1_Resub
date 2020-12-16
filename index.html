@@ -1,126 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lighthouse Lawers/Home</title>
-    <link rel="stylesheet"  href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        type="text/css" />
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+        integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
 
 </head>
 
 <body>
     <div class="container">
-            <!-- The Modal -->
+        <!-- The Modal -->
         <div class="modal" id="myModal">
             <div class="modal-dialog">
                 <div class="modal-content">
-            
+
                     <!-- Modal Header -->
                     <div class="modal-header">
-                    <h4 class="modal-title">How can we help you?</h4>
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">How can we help you?</h4>
+                        <button type="button" class="close">&times;</button>
                     </div>
-                    
-                        <!-- Modal body -->
-                        <div class="modal-body">
-                                <form action="index.html" class="was-validated" method="post">
-                                    <div class="form-group">
-                                        <i class="fas fa-user prefix grey-text text-primary"></i>
-                                        <label for="fname"></label>
-                                        <input type="text" class="form-control" placeholder="Name" id="name" name="name" required>
-                                    </div>
 
-                                    <div class="form-group">
-                                        <i class="fas fa-envelope prefix grey-text text-primary"></i>
-                                        <label for="email"></label>
-                                        <input type="email" class="form-control" id="email" placeholder="Email" required>
-                                    </div>
-                                    <div class="mb-3">
-                                        <i class="fas fa-bars prefix grey-text text-primary "></i>
-                                        <label for="validationTextarea" class="form-label"></label>
-                                        <textarea class="form-control is-invalid" id="validationTextarea" placeholder="Text area" required></textarea>
-                                        <div class="invalid-feedback">
-                                        Please enter a message in the textarea.
-                                        </div>
-                                    </div>
-   
-                                    <div class="checkbox">
-                                        <label><input type="checkbox"> I accept the <a href="#"> Terms and conditions</a></label>
-                                    </div>
-                                </form>
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <form action="index.html" class="was-validated">
+                            <div class="form-group">
+                                <i class="fas fa-user prefix grey-text text-primary"></i>
+                                <label for="fname"></label>
+                                <input type="text" class="form-control" placeholder="Name" id="name" name="name"
+                                    required>
                             </div>
 
-                         <!-- Modal footer -->
+                            <div class="form-group">
+                                <i class="fas fa-envelope prefix grey-text text-primary"></i>
+                                <label for="email"></label>
+                                <input type="email" class="form-control" id="email" placeholder="Email" required>
+                            </div>
+                            <div class="mb-3">
+                                <i class="fas fa-bars prefix grey-text text-primary "></i>
+                                <label for="validationTextarea" class="form-label"></label>
+                                <textarea class="form-control is-invalid" id="validationTextarea"
+                                    placeholder="Text area" required></textarea>
+                                <div class="invalid-feedback">
+                                </div>
+                            </div>
+
+                            <div class="checkbox">
+                                <label><input type="checkbox"> I accept the <a href="#"> terms and
+                                        conditions</a></label>
+                            </div>
+                                    <!-- Modal footer -->
                             <div class="modal-footer">
-                                <input type="submit" value="Submit"
-                                 class="btn btn-danger" data-dismiss="modal">
+                                <input type="submit" value="Submit" class="btn btn-danger" >
                             </div>
+                        </form>
+                    </div>
 
+                    
                 </div>
             </div>
         </div>
-        
+
     </div>
 
     <header>
-            <nav class="navbar navbar-expand-xl bg-dark navbar-dark fixed-top">
-                <a class="navbar-brand ml-3" href="#">Lighthouse <span class="color-brand">Lawyers<span> </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <nav class="navbar navbar-expand-xl bg-dark navbar-dark fixed-top">
+            <a class="navbar-brand ml-3" href="#">Lighthouse <span class="color-brand">Lawyers<span> </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
                 <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar"> <!--Links on the right side-->                
-                    <ul class="navbar-nav">
-                        <li class="nav-item mr-5"> <!-- a bit of space-->
-                            <a class="nav-link" href="index.html">Home</a>
-                        </li>
-                        <li class="nav-item mr-5">
-                            <a class="nav-link" href="ourTeam.html">Our team</a>
-                        </li>
-                        <li class="nav-item mr-5">
-                            <a class="nav-link" href="practiceArea.html">Practice Area</a>
-                        </li>
-                        <li class="nav-item mr-5">
-                            <a class="nav-link" href="contactUs.html">Contact Us</a>
-                        </li>    
-                       
-                    </ul>
-                </div>  
-                <div >
-                    <span class="navbar-text mr-2 text-warning">
-                           No fees until we win / 
-                    </span>
-                    <span><a class="navbar-text mr-2 text-warning" href="tel:+ 353 555 34 67 88">
-                           Call us 555 23 56 89
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+                <!--Links on the right side-->
+                <ul class="navbar-nav">
+                    <li class="nav-item mr-5">
+                        <!-- a bit of space-->
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item mr-5">
+                        <a class="nav-link" href="ourTeam.html">Our team</a>
+                    </li>
+                    <li class="nav-item mr-5">
+                        <a class="nav-link" href="practiceArea.html">Practice Area</a>
+                    </li>
+                    <li class="nav-item mr-5">
+                        <a class="nav-link" href="contactUs.html">Contact Us</a>
+                    </li>
+
+                </ul>
+            </div>
+            <div>
+                <span class="navbar-text mr-2 text-warning">
+                    No fees until we win /
+                </span>
+                <span><a class="navbar-text mr-2 text-warning" href="tel:+ 353 555 34 67 88">
+                        Call us 555 23 56 89
                     </a></span>
-                </div>
-            </nav>
+            </div>
+        </nav>
     </header>
     <section>
-        
-            <div class="container-fluid main-container">  <!--class provides a full width container, spanning the entire width of the viewport --> 
-                <div class="row">
-                    <div class="col-12">
-                        <div> 
-                            <div class="container jumbotron text-center text-uppercase border border-warning">
-                                <h1 class="display-4">We will guide you through the storm </h1>
-                                <p class="lead"></p>
-                                <a class="btn btn-primary btn-lg" href="#" role="button" data-toggle="modal" 
-                                data-toggle="modal" data-target="#myModal"
-                                >Contact Us</a>
-                                <hr class="my-4">
-                                <p>Free Consultation</p>
-                            </div>
-                        </div>                    
-                    </div>    
+
+        <div class="container-fluid main-container">
+            <!--class provides a full width container, spanning the entire width of the viewport -->
+            <div class="row">
+                <div class="col-12">
+                    <div>
+                        <div class="container jumbotron text-center text-uppercase border border-warning">
+                            <h1 class="display-4">We will guide you through the storm </h1>
+                            <p class="lead"></p>
+                            <a class="btn btn-primary btn-lg" href="#" role="button" data-toggle="modal"
+                                data-toggle="modal" data-target="#myModal">Contact Us</a>
+                            <hr class="my-4">
+                            <p class="background-free">Free Consultation</p>
+                        </div>
+                    </div>
                 </div>
             </div>
+        </div>
     </section>
 
     <footer>
-    
+
     </footer>
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
