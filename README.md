@@ -11,12 +11,13 @@ This website is for people who have a legal problem and are looking at different
 When they get to this website, they can see a relaxed website so as not to worry them more, 
 but at the same time with a direct message of help and action so that the user can free themselves and move forward.
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
 
-As a user type, I want to perform an action, so that I can achieve a goal.
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process.
-These files should themselves either be included as a pdf file in the project itself (in an separate directory), 
-or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+## wireframes
+
+
+
+
+
 
 ## Pictures
 
@@ -24,7 +25,25 @@ Lighthouse Photo by Anand Dandekar from Pexels
 
 
 ## Features
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+In this section, I go over the different parts of my project, and describe each.
+
+### Home
+When they enter the main page and click the button, a modal opens for them to give us the data so we do not lose contact details. The main page sends messages of calm but invites to action.
+Messages like "Free consultation" or "No fees until we win" or "call Us" with the ease of calling instantly.
+
+### Our team
+
+Here you can see the members of the firm, serious and professional image,
+with an explanation of their skills and experience
+
+### Practice area
+
+Different specialties of the firm so that the client can clearly see what the firm is an expert in.
+
+### Contact us
+
+extensive contact form, with a map of the location of the company so that the client can see exactly where they are.
+
 
 ### Existing Features
 #### Feature 1 - allows users X to achieve Y, by having them fill out Z

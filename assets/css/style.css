@@ -25,6 +25,10 @@ body {
     background-color: #e2e2e2;
 }
 
+.icon-size {
+    font-size: 24px;
+}
+
 
 .img-order {
     order: 2;
@@ -80,6 +84,7 @@ body {
    position: absolute;
    top: 0;
    width: 100%;
+
 }
   /* Media query to size properly on the mobile phone size*/
 
@@ -173,6 +178,7 @@ body {
         font-size: x-large;
     }
 
+    
     footer {
         padding-top: 100px;
         padding-bottom: 100px;
