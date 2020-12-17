@@ -58,6 +58,42 @@ body {
 
     position: relative;
 
+}.main-container-practise-area {
+    height: 60vh;
+    background: url('../images/meeting.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+
+}
+
+.main-container-contactUs{
+
+    height: 60vh;
+    background: url('../images/telephone.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+
+}
+
+.shadow-text {
+    text-shadow: 1px 1px #ffc107;
+
 }
 
 /* .....................................Jumbotron */
@@ -121,6 +157,25 @@ body {
         
     }
 
+    .img-size {
+        height: 60vh;
+        width: 25px;
+    }
+
+    .title-size{
+        font-size: larger;
+    }
+
+    /* #crime-text{
+        order: 2;
+        -webkit-order: 2;
+    }
+
+    #crime-img{
+        order: 1;
+        -webkit-order: 1;
+    } */
+
     iframe {
       width:auto;
       height:50px;
@@ -135,6 +190,10 @@ body {
     }    
        .card-img-overlay {
         font-size: 1 rem;
+    }
+
+    .title-size{
+        font-size: large;
     }
 }
 
@@ -157,6 +216,12 @@ body {
         margin: 0 auto;
         padding-bottom: 10%;
     }
+
+.title-size{
+        margin-top: 2%;
+        font-size: 22px;
+    }
+
 }
 
 @media(min-width: 750px) {
@@ -190,6 +255,10 @@ body {
         font-size: large;
 
     }
+
+    .lawyers-mt {
+        margin-top: 60px;
+    }
 } 
 
 
@@ -197,6 +266,11 @@ body {
 @media (min-width: 992px) {
     .navbar-text {
         font-size: x-large;
+    }
+
+    .lawyers-mt {
+
+        margin-top: 60px;
     }
 
 }
