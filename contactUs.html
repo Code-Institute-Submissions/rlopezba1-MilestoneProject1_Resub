@@ -1,177 +1,156 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lighthouse Lawers/Contact Us</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-        type="text/css" />
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
-        integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
-
-</head>
-
-<body>
-    <header>
-        <nav class="navbar navbar-expand-xl bg-dark navbar-dark fixed-top">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Lighthouse Lawers/Contact Us</title>
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+         type="text/css" />
+      <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+      <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+         integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+   </head>
+   <body>
+      <header>
+         <nav class="navbar navbar-expand-xl bg-dark navbar-dark fixed-top">
             <a class="navbar-brand ml-3" href="index.html">Lighthouse <span class="color-brand">Lawyers</span></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-                <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
-                <!--Links on the right side-->
-                <ul class="navbar-nav">
-                    <li class="nav-item mr-5">
-                        <!-- a bit of space-->
-                        <a class="nav-link" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item mr-5">
-                        <a class="nav-link" href="ourTeam.html">Our team</a>
-                    </li>
-                    <li class="nav-item mr-5">
-                        <a class="nav-link" href="practiceArea.html">Practice Area</a>
-                    </li>
-                    <li class="nav-item mr-5">
-                        <a class="nav-link" href="contactUs.html">Contact Us</a>
-                    </li>
-                </ul>
+               <!--Links on the right side-->
+               <ul class="navbar-nav">
+                  <li class="nav-item mr-5">
+                     <!-- a bit of space-->
+                     <a class="nav-link" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item mr-5">
+                     <a class="nav-link" href="ourTeam.html">Our team</a>
+                  </li>
+                  <li class="nav-item mr-5">
+                     <a class="nav-link" href="practiceArea.html">Practice Area</a>
+                  </li>
+                  <li class="nav-item mr-5">
+                     <a class="nav-link" href="contactUs.html">Contact Us</a>
+                  </li>
+               </ul>
             </div>
             <div>
-                <span class="navbar-text mr-2 text-warning">No fees until we win /
-                </span>
-                <span><a class="navbar-text mr-2 text-warning" href="tel:+353555346788">Call us 555 23 56 89</a>
-                </span>
+               <span class="navbar-text mr-2 text-warning">No fees until we win /
+               </span>
+               <span><a class="navbar-text mr-2 text-warning" href="tel:+353555346788">Call us 555 23 56 89</a>
+               </span>
             </div>
-        </nav>
-
-    </header>
-
-    <section>
-        <div class="container-fluid main-container-contactUs lawyers-mt">
+         </nav>
+      </header>
+      <section>
+         <div class="container-fluid main-container-contactUs lawyers-mt">
             <div class="row">
-                <div class="col mt-3">
-                </div>
+               <div class="col mt-3">
+               </div>
             </div>
-        </div>
-    
-
-        <div class="container">
-            <div class="row mt-3">               
-                    <div class="col-12 col-md-12 mt-4">
-                    <!-- Default form contact -->
-                        <form class="text-center border border-light p-3 " action="#!">
-                            <p class="h4 mb-4">Contact us</p>
-                            <!-- Name -->
-                            <input type="text" id="defaultContactFormName" class="form-control mb-4" placeholder="Name">
-
-                            <!-- Email -->
-                            <input type="email" id="defaultContactFormEmail" class="form-control mb-4" placeholder="E-mail">
-
-                            <!-- Subject -->
-                            <label>Subject</label>
-                            <select class="browser-default custom-select mb-4">
-                                <option value="" disabled>Choose option</option>
-                                <option value="1" selected>Feedback</option>
-                                <option value="2">Divorce Law</option>
-                                <option value="3">Crime Law request</option>
-                                <option value="4">Tax Law</option>
-                            </select>
-
-                            <!-- Message -->
-                            <div class="form-group">
-                                <textarea class="form-control rounded-0" id="exampleFormControlTextarea2" rows="3"
-                                    placeholder="Message"></textarea>
-                            </div>
-
-                            <!-- Copy -->
-                            <div class="custom-control custom-checkbox mb-4">
-                                <input type="checkbox" class="custom-control-input" id="defaultContactFormCopy">
-                                <label class="custom-control-label" for="defaultContactFormCopy">Send me a copy of this
-                                    message</label>
-                            </div>
-
-                            <!-- Send button -->
-                            <button class="btn btn-primary btn-block" type="submit">Send</button>
-
-                        </form>
-                    </div>
+         </div>
+         <div class="container">
+            <div class="row mt-3">
+               <div class="col-12 col-md-12 mt-4">
+                  <!-- Default form contact -->
+                  <form class="text-center border border-light p-3 " action="#!">
+                     <p class="h4 mb-4">Contact us</p>
+                     <!-- Name -->
+                     <input type="text" id="defaultContactFormName" class="form-control mb-4" placeholder="Name">
+                     <!-- Email -->
+                     <input type="email" id="defaultContactFormEmail" class="form-control mb-4" placeholder="E-mail">
+                     <!-- Subject -->
+                     <label>Subject</label>
+                     <select class="browser-default custom-select mb-4">
+                        <option value="" disabled>Choose option</option>
+                        <option value="1" selected>Feedback</option>
+                        <option value="2">Divorce Law</option>
+                        <option value="3">Crime Law request</option>
+                        <option value="4">Tax Law</option>
+                     </select>
+                     <!-- Message -->
+                     <div class="form-group">
+                        <textarea class="form-control rounded-0" id="exampleFormControlTextarea2" rows="3"
+                           placeholder="Message"></textarea>
+                     </div>
+                     <!-- Copy -->
+                     <div class="custom-control custom-checkbox mb-4">
+                        <input type="checkbox" class="custom-control-input" id="defaultContactFormCopy">
+                        <label class="custom-control-label" for="defaultContactFormCopy">Send me a copy of this
+                        message</label>
+                     </div>
+                     <!-- Send button -->
+                     <button class="btn btn-primary btn-block" type="submit">Send</button>
+                  </form>
+               </div>
             </div>
-            <div class="row mt-5 mb-5">                  
-
-                    <!--Grid column-->
-
-                    <!--Grid column-->
-                    <div class="col-12 col-md-10 mx-auto">
-
-                        <!--Google map-->
-                        <div id="map-container-google-11" class="iframe-container">
-                            <iframe src="https://maps.google.com/maps?q=cork&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
-                        </div>
-                    </div>
+            <div class="row mt-5 mb-5">
+               <!--Grid column-->
+               <div class="col-12 col-md-10 mx-auto">
+                  <!--Google map-->
+                  <div id="map-container-google-11" class="iframe-container">
+                     <iframe src="https://maps.google.com/maps?q=cork&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
+                  </div>
+               </div>
             </div>
-        </div>
-
-    </section>
-    <footer class="bg-dark text-warning mt-0">
-        <div class="container text-center text-md-left">
+         </div>
+      </section>
+      <footer class="bg-dark text-warning mt-0">
+         <div class="container text-center text-md-left">
             <div class="row">
-                <div class="col-md-4 col-lg-3 mr-auto my-md-4 my-0 mt-4 mb-1">
-                    <h5 class="font-weight-bold text-uppercase mb-4">Lighthouse Lawyers</h5>
-                    <p class="text-left">Lighthouse Lawyers is a premier law firm providing a comprehensive range of
-                        legal services
-                        and solutions for domestic and international clients.</p>
-                </div>
-
-                <hr class="clearfix w-100 d-md-none">
-                <div class="col-md-5 col-lg-4 mx-auto my-md-4 my-0 mt-4 mb-1">
-                    <h5 class="font-weight-bold text-uppercase mb-4">Address</h5>
-                    <ul class="list-unstyled my-md-3">
-                        <li>
-                            <p><i class="fas fa-home mr-1 text-center"></i>
-                            1 Court House, Cork City</p>
-                        </li>
-                        <li>
-                            <p><i class="fas fa-envelope mr-1 text-center"></i>
-                            <a href="mailto:someone@example.com" class="text-warning"
-                                    target="_blank">info@lighthouselawyers.com</a></p>
-                        </li>
-                        <li>
-                          <p><i class="fas fa-phone mr-1 text-center"></i>
-                            <a href="tel:+353555346788" class="text-warning">
-                             +353 555 34 88 67</a></p>
-                        </li>
-                    </ul>
-                </div>
-                <hr class="clearfix w-100 d-md-none">
-                <div class="col-md-3 col-lg-2 text-center my-4">
-                    <h5 class="font-weight-bold text-uppercase mb-4">Follow Us</h5>
-
-                        <a href="https://www.facebook.com" target="_blank" class="text-warning">
-                            <i class="fab fa-facebook mr-1 icon-size"></i>
-                        </a>
-                        <a href="https://www.twitter.com" target="_blank" class="text-warning">
-                            <i class="fab fa-twitter mr-1 icon-size"></i>
-                        </a>
-                        <a href="https://www.linkedin.com" target="_blank" class="text-warning">
-                            <i class="fab fa-linkedin mr-1 icon-size"></i>
-                        </a>
-                        <a href="https://www.instagram.com" target="_blank" class="text-warning">
-                            <i class="fab fa-instagram mr-1 icon-size"></i>
-                        </a>
-                    
-                </div>
+               <div class="col-md-4 col-lg-3 mr-auto my-md-4 my-0 mt-4 mb-1">
+                  <h5 class="font-weight-bold text-uppercase mb-4">Lighthouse Lawyers</h5>
+                  <p class="text-left">Lighthouse Lawyers is a premier law firm providing a comprehensive range of
+                     legal services
+                     and solutions for domestic and international clients.
+                  </p>
+               </div>
+               <hr class="clearfix w-100 d-md-none">
+               <div class="col-md-5 col-lg-4 mx-auto my-md-4 my-0 mt-4 mb-1">
+                  <h5 class="font-weight-bold text-uppercase mb-4">Address</h5>
+                  <ul class="list-unstyled my-md-3">
+                     <li>
+                        <p><i class="fas fa-home mr-1 text-center"></i>
+                           1 Court House, Cork City
+                        </p>
+                     </li>
+                     <li>
+                        <p><i class="fas fa-envelope mr-1 text-center"></i>
+                           <a href="mailto:someone@example.com" class="text-warning"
+                              target="_blank">info@lighthouselawyers.com</a>
+                        </p>
+                     </li>
+                     <li>
+                        <p><i class="fas fa-phone mr-1 text-center"></i>
+                           <a href="tel:+353555346788" class="text-warning">
+                           +353 555 34 88 67</a>
+                        </p>
+                     </li>
+                  </ul>
+               </div>
+               <hr class="clearfix w-100 d-md-none">
+               <div class="col-md-3 col-lg-2 text-center my-4">
+                  <h5 class="font-weight-bold text-uppercase mb-4">Follow Us</h5>
+                  <a href="https://www.facebook.com" target="_blank" class="text-warning">
+                  <i class="fab fa-facebook mr-1 icon-size"></i>
+                  </a>
+                  <a href="https://www.twitter.com" target="_blank" class="text-warning">
+                  <i class="fab fa-twitter mr-1 icon-size"></i>
+                  </a>
+                  <a href="https://www.linkedin.com" target="_blank" class="text-warning">
+                  <i class="fab fa-linkedin mr-1 icon-size"></i>
+                  </a>
+                  <a href="https://www.instagram.com" target="_blank" class="text-warning">
+                  <i class="fab fa-instagram mr-1 icon-size"></i>
+                  </a>
+               </div>
             </div>
-        </div>
-    </footer>
-
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
-</body>
-
+         </div>
+      </footer>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+   </body>
 </html>

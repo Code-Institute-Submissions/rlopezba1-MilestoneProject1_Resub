@@ -1,3 +1,5 @@
+/* .....................................Typography background color, brand color, general top margin */
+
 body {
     font-family: 'Roboto',sans-serif;
     background-color: #e2e2e2;
@@ -11,16 +13,18 @@ body {
         margin-top: 100px;
     }
 
+/* .....................................Our Team Cards */
+
 .card-img-top {
     width: 100%;
     height: 55vw;
     object-fit: cover;
 }
 
-.custom-centered {
+/* .custom-centered {
     margin: 0 auto;
     width: 300px;
-}   
+}    */
 
 .card {
     position: relative;
@@ -29,20 +33,34 @@ body {
     background-color: #e2e2e2;
 }
 
+
+/* .....................................General icons */
+
 .icon-size {
     font-size: 24px;
 }
 
 
-.img-order {
+/* .img-order {
     order: 2;
+} */
+
+
+
+/* .....................................Jumbotron */
+
+
+.jumbotron {
+    background-color: transparent;
+    width: 70%;
 }
 
-.img-size {
-    width: 40%;
-    height: 40%;
+.jumbotron h1 {
+    color: white;
+    margin-bottom: 30px;
 }
 
+/* .....................................Home slogan area and image */
 
 .main-container {
     height: 100vh;
@@ -58,26 +76,13 @@ body {
 
     position: relative;
 
-}.main-container-practise-area {
-    height: 60vh;
-    background: url('../images/meeting.jpg');
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    position: relative;
-
 }
 
-.main-container-contactUs{
+/* .....................................Practise area main image area */
 
+.main-container-practise-area {
     height: 60vh;
-    background: url('../images/telephone.jpg');
+    background: url('../images/meeting.jpg');
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -96,18 +101,32 @@ body {
 
 }
 
-/* .....................................Jumbotron */
-
-
-.jumbotron {
-    background-color: transparent;
-    width: 70%;
+.img-size {
+    width: 40%;
+    height: 40%;
 }
 
-.jumbotron h1 {
-    color: white;
-    margin-bottom: 30px;
+
+/* .....................................Contact Us main image */
+
+.main-container-contactUs{
+
+    height: 60vh;
+    background: url('../images/telephone.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+
 }
+
+
 
 /* .....................................Google Maps */
 
@@ -129,6 +148,8 @@ body {
   /* Media query to size properly on the mobile phone size*/
 
 @media only screen and (max-width: 280px) {
+
+    /* Home main text in small device */
     .display-4 {
         padding-top: 10%;
         font-size: 1.5rem;
@@ -166,17 +187,7 @@ body {
         font-size: larger;
     }
 
-    /* #crime-text{
-        order: 2;
-        -webkit-order: 2;
-    }
-
-    #crime-img{
-        order: 1;
-        -webkit-order: 1;
-    } */
-
-    iframe {
+     iframe {
       width:auto;
       height:50px;
     }
@@ -199,6 +210,13 @@ body {
 
 @media only screen and (max-width: 600px) {  
     
+    .display-4 {
+        font-size: 1.5rem;
+        font-weight: 300;
+        line-height: 1.2;
+        margin: 0 auto;
+        padding-bottom: 10%;
+    }
     
     .card-img-overlay {
         font-size: 1rem;
@@ -209,13 +227,7 @@ body {
         height: auto;
         object-fit: cover;
 }
-    .display-4 {
-        font-size: 1.5rem;
-        font-weight: 300;
-        line-height: 1.2;
-        margin: 0 auto;
-        padding-bottom: 10%;
-    }
+    
 
 .title-size{
         margin-top: 2%;
@@ -232,6 +244,8 @@ body {
         margin: 0 auto;
         padding-bottom: 10%;
     }
+
+    /* background text in Home  */
 
     .background-free {
         background-color: #ffc107;
