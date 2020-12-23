@@ -241,6 +241,8 @@ editor of your choice by following the steps below:
 
 1. Lighthouse Photo by Anand Dandekar from Pexels
 2. Lawyers Photos by Sora Shimasaki from Pexels
+3. Tax photos by Carolina Grawoska from Pexels
+4. Divorce photo by Ketut Subiyanto from Pexels
 
 #### Acknowledgements
 
