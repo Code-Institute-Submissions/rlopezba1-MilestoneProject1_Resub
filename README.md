@@ -123,7 +123,7 @@ Live version : [View the live project here](https://rlopezba1.github.io/Mileston
     - <span style="color: #e2e2e2">#e2e2e2 It's the background color</span>
     - <span style="color: #007bff">#007bff It's the button color</span>
     - <span style="color: #dc3545">#dc3545 It's the modal button color</span>
-
+    - [Colours](colours.png)
 
 - Typography
     I chose Roboto as the font to be used throughout the site, imported from 'Google Fonts', 
@@ -202,10 +202,10 @@ The site was developed in GitPod and pushed to the following remote GitHub repos
 
 The following GIT commands were used throughout deployment:
 
-git status ------ used to check the status of files and which have been modified.
-git add ------ to stage files before commit.
-git commit -m " " ------ to commit the files.
-git push ------ to push the files to the master branch of the GitHub repo.
+- git status ------ used to check the status of files and which have been modified.
+- git add ------ to stage files before commit.
+- git commit -m " " ------ to commit the files.
+- git push ------ to push the files to the master branch of the GitHub repo.
 
 
 ### Hosting on GitHub Pages
