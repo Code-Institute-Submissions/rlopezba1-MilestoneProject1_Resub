@@ -5,10 +5,10 @@
 
 ![Responsive Design](responsiveDesign.png)
 
-The Lighthouse Lawyers project is the website of a law firm offering legal consulting services.
-It is a fictional website but it could be a real one.
-The presentation is relaxed, without too many ornaments, focused on user action.
-There are 4 links, the home page to call an action, the lawyers's presentation where attorneys are presented broadly and clearly,
+- The Lighthouse Lawyers project is a law firm website that offer legal consulting services.
+- It is a project website but it could be a real one.
+- It has a relax presentation, without too many ornaments, focused on user action.
+- There are 4 links, the home page that call an action, the lawyers's presentation where lawyers are presented broadly and clearly,
 the practise area to clearly specify areas of expertise, and the location and contact form.
 
 **Project Requirements:**
@@ -21,48 +21,46 @@ Live version : [View the live project here](https://rlopezba1.github.io/Mileston
 
 - Business Objective
 
-    - This website is for people who have a legal problem and are looking for a great company option 
-    to help them with the issue.
-    - When they get to this website, they can see a relaxed website that try not to worry them more, 
-        but at the same time with a direct message of help and action.
-    - The user will be able to contact for free because the consultation is free and also,
-        there is a specified the clear message that in the event that the services are hired, it is not charged until the case is won.
-    - Contact details will be clearly available throughout the site making it easy for potential clients to make contact 
-        - Home page (navigation var and modal)
-        - Our Team page (navigation var, footer)
-        - Practise Area page (navigation var, footer)
-        - Contact Us page (navigation var, footer, google maps location and form)
+    - This website is for people who have a legal problem and they are looking for a great company to help them with the issue.
+    - When they get to this website, they can see a relax website that try not to worry them more, 
+        but at the same time there is a direct message of help and action.
+    - The user will have free consultation and also,
+        there is a specified clear message that in the event that the services are hired, there is not charge until the case is won.
+    - Contact details will be clearly available throughout the site, making it easy for potential clients to make contact 
+        - Home page (contact through the navigation bar and modal)
+        - Our Team page (contact through the navigation bar and footer)
+        - Practise Area page (contact through the navigation barand footer)
+        - Contact Us page (contact through the navigation bar, footer, google maps location and form)
     
 
 - User Objective
     - Find a law firm that inspires confidence, experience, guidance, problem solver in a relax way, 
-        afordable, risk-free and on the location area.
-    - Get information about the lawyers I am going to work with.
-    - Know the areas of expertise to see if they fit my needs
+        afordable, risk-free and local.
+    - Get information about the lawyers working in the company.
+    - Get information about the areas of expertise to see if they fit my needs
 - Project goals
-    - Create a clear, elegant and easily navigatable website for the user, and easy to contact the company.
+    - Create a clear, elegant and easily navigatable website for the user, and easy to contact to the company.
     - Create a relaxed image of a guide, of a professional team, with elegant colors.
     - Clearly specify what the company does, who they are, what they do and how to easily contact them at cost free.
 - User stories
 
     1. As a site visitor, I want to see who is going to help me in the company.
     2. As a site visitor, I want to see what they are specialists in.
-    3. As a site visitor, I want to be able to easily navigate the site and get information quickly.
+    3. As a site visitor, I want to be able to easily navigate on the site and get information quickly.
     4. As a site visitor, I want to know how much the consultation will cost me and how to contact them.
-    5. As a potential client, I want to leave a call, send an email or know where they are.
-    6. As a potential client, I want to know who works so I know who to contact to.
+    5. As a potential client, I want to make a call, send an email or to know where they are.
+    6. As a potential client, I want to know who works there so I know who to contact to.
 ## Features
-- I want the site to be original, elegant, professional, easy to contact, 
-    to show who are managing the company and where they are, being simple and easy to navigate,
-    therefore, the use of sections is very clear, direct and simple. 
+- I want the website to be original, elegant, professional, easy to contact, 
+    to let me know who are managing the company and where they are, being simple, direct, clear and easy to navigate. 
     It is very important that the user knows in detail the areas of specialization and who the lawyers are,
     and the experience they have, that is why the page allows you to scroll through these pages to acquire
-    all the information that is needed but without overwhelming.
+    all the information needed but without overwhelming.
 - All pages except the home page will adopt a similar page structure. At the top of each page there will be a 
   fixed response navigation bar that will indicate to 
   the user which page they are currently viewing and will always give them the information
   to contact by phone and receive the marketing message that there is no charge until the case is won, to permanently convey
-  the idea of ​​zero risk. The user experience should be easy to navigate the site and encourage action. It will contain links
+  the idea of ​​zero risk. The user experience should be easy to navigate and encourage to action. It will contain links
   to other pages on the website and will be sleek black, with the corporate yellow color as in the footer. 
   This navigation bar will collapse on mobile devices and be justified centrally on the page.
 
@@ -72,7 +70,7 @@ Live version : [View the live project here](https://rlopezba1.github.io/Mileston
 - The home page, as the landing page of the site, should contain relaxed content, guide-inspiring, and call-to-action.
 
 ### Home
-- When they enter the main page and click the button, a Modal opens for them to give us the data so we do not lose contact
+- When they enter the main page and click the button, a Modal opens for them to give us the data, so we do not lose contact
    details. The main page sends messages of calm but invites to action.
     Messages like "Free consultation" or "No fees until we win" or "call Us" will make it easy for potential customers 
     to contact immediatly.
@@ -88,18 +86,18 @@ Live version : [View the live project here](https://rlopezba1.github.io/Mileston
     The same navigation bar and a footer with a summary of the mission of the company,
     contact information (email, telephone, address) and links to the social media.
     The footer is responsive to suit each device, keeping the corporate colors.
-    It did not appear on the Home page because I wanted to give enough space to the relaxed image and the contact option.
+    It did not appear on the Home page because I wanted to give enough space to the relaxed image and the contact area.
 
 ### Practice area
 
-- Show the different specialties of the firm so that the client can clearly see what the firm is an expert in.
+- Show the different specialties of the firm so that the client can clearly see the firm experience.
   The images and texts are adopting the appropriate shape and size for each device, making the information more 
   flexible at all times. Same navigation bar and footer.
 
 ### Contact us
 - Extensive contact form, with a Google map embedded of the company's location,
     so that the client can see exactly where the company is, and a very apropiate image where we
-    can see the lawyer taking a phone call. Same navigation bar and footer.
+    can see the lawyer taking a phone call. Same navigation bar and footer to keep the corporate design.
 ## Skeleleton
 - [Wireframe in Design](https://github.com/rlopezba1/MilestoneProject1/blob/main/NewProject1.pdf) 
    using Balsamiq in large, medium and small devices sizes.
@@ -115,7 +113,7 @@ Live version : [View the live project here](https://rlopezba1.github.io/Mileston
 
 ## Design
 
-- Colors
+- Colors:
     A palette of three colors to try to give an elegant and relaxed image, where each color complements each other.
     Color palette - Three main colors complement the design of the site. These are shown below: 
     - <span style="color: #ffc107">#ffc107 It's the corporate color for Navbar and footer</span>
@@ -125,8 +123,8 @@ Live version : [View the live project here](https://rlopezba1.github.io/Mileston
     - <span style="color: #dc3545">#dc3545 It's the modal button color</span>
     - [Colours](colours.png)
 
-- Typography
-    I chose Roboto as the font to be used throughout the site, imported from 'Google Fonts', 
+- Typography:
+    - I chose Roboto as the font to be used throughout the site, imported from 'Google Fonts', 
     due to its professional and elegant look.
 
 ## Technologies Used
@@ -170,29 +168,28 @@ to ensure there were no syntax errors in the project, and Freeformatter to style
 -   As a potential customer, I want to easily find the company's contact details, as I prefer to speak to someone directly.
     -   On each page I was able to locate a direct telephone number with ease, and also in Our Team you can find
      the people who work in the office, to know who you are interested in contacting.
-#### Testing Features
+### Testing Features
 - A large amount of testing was done to ensure that all pages were linking correctly.
 - The navbar was tested to collapse at the correct breakpoint.
 - The form and the modal were both tested for validation of inputted data and that the user is forwarded 
 to the response page once submitted.
 - All buttons and nav links were checked for correct forwarding address.
-#### Testing Responsive action
+### Testing Responsive action
 - The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
 
 
-#### Testing Different browsers
+### Testing Different browsers
 
 - The Website was tested on Google Chrome, Microsoft Edge, Opera and Safari browsers.
 
 ### Issues Found
-The text on the main page did not look good on some devices. Neither does the yellow margin
-- I had to change the format for these devices, especially the font and the yellow background in "free consultation", since it did not look good with the image in the background
-I had some problems with the modal because the text checker entered did not work.
-- I solved it by introducing the submit button inside the form
-I had some problems with the footer and navbar on the size in medium size screen
-- I solved it by changing the margins
-I had some problems with the cards on the small size screen
-- I solved it by changing the margins
+The text on the main page did not look good on some devices. Neither does the yellow border.
+- I had to change the format for these devices, especially the font-soze and the yellow border and background
+ in "free consultation", as it did not looking good with the rocks in the background large image.
+- I had some problems with the modal because the text checker did not work.
+ I solved it by introducing the submit button inside the form.
+- I had some problems with the footer and navbar in medium size screen. I solved it by changing the margins.
+- I had some problems with the cards on the small size screen. I solved it by changing the margins.
 
 All of these problems have taken me a long time but I have enjoyed solving them.
 
@@ -213,12 +210,12 @@ This site is hosted using GitHub pages, deployed directly from the master branch
 
 The following steps were taken to complete the hosting process.
 
-Log into GitHub.
-Choose the relevant repository [Lighthouse Lawyers](https://github.com/rlopezba1/MilestoneProject1)
-Go to settings.
-Scroll down to GitHub Pages section.
-Select as a source master branch.
-The page will automatically refresh.
+- Log into GitHub.
+- Choose the relevant repository [Lighthouse Lawyers](https://github.com/rlopezba1/MilestoneProject1)
+- Go to settings.
+- Scroll down to GitHub Pages section.
+- Select as a source master branch.
+- The page will automatically refresh.
 
 
 #### Cloning
@@ -248,16 +245,16 @@ editor of your choice by following the steps below:
 
 - Sites Used
 
-    1. [Pexels](https://www.pexels.com/) Was used to choose the images used during on the website.
+    1. [Pexels](https://www.pexels.com/) was used to choose the images used on the website.
 
     2. [Am I Responsive](http://ami.responsivedesign.is/) used for testing purposes and for the screenshot at the top of my README filed
-     to display the web pages on different devices.
+     to display the webside on different devices.
 
-    3. [Stack Overflow](https://stackoverflow.com/) used to solve coding doubts during the web creation process
+    3. [Stack Overflow](https://stackoverflow.com/) used to solve coding doubts during the web creation process.
 
-    4. [W3school](https://www.w3schools.com/) used to solve coding doubts during the web creation process
+    4. [W3school](https://www.w3schools.com/) used to solve coding doubts during the web creation process.
 
-    5. [Tutorialspoint](https://www.tutorialspoint.com/index.htm) used to solve coding doubts during the web creation process
+    5. [Tutorialspoint](https://www.tutorialspoint.com/index.htm) used to solve coding doubts during the web creation process.
 
     6. [Mdbootstrap](https://mdbootstrap.com/) was used to assist with the responsiveness and styling of the website in diferent areas
     as footer or form.
