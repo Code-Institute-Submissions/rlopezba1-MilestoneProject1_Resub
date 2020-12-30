@@ -13,6 +13,7 @@ body {
 	margin-top: 100px;
 }
 
+
 /* .....................................Our Team Cards */
 
 .card-img-top {
@@ -79,10 +80,13 @@ body {
 	justify-content: center;
 	position: relative;
 }
+/* shadow in text in practise area */
 
 .shadow-text {
 	text-shadow: 1px 1px #ffc107;
 }
+
+/* images size in practise area */
 
 .img-size {
 	width: 40%;
@@ -236,7 +240,13 @@ body {
 		font-size: x-large;
 	}
 	.lawyers-mt {
-		margin-top: 60px;
+		margin-top: 80px;
+	}
+	.card-title {
+		font-size: large;
+	}
+	.card-text {
+		font-size: medium;
 	}
 }
 
@@ -249,7 +259,27 @@ body {
 	}
 	.card-img-top {
 		width: 100%;
-		height: 55vw;
+		height: 35vw;
+		object-fit: cover;
+	}
+	.card-title {
+		font-size: large;
+	}
+	.card-text {
+		font-size: medium;
+	}
+}
+
+
+/* // Extra-Extra large devices (Extra-large desktops, 1400px and up) */
+
+@media (min-width: 1400px) {
+	.navbar-text {
+		font-size: large;
+	}
+	.card-img-top {
+		width: 100%;
+		height: 25vw;
 		object-fit: cover;
 	}
 }
