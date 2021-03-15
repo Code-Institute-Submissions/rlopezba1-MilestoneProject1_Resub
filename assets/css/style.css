@@ -97,7 +97,7 @@ body {
 /* .....................................Contact Us main image */
 
 .main-container-contactUs {
-	height: 60vh;
+	height: 70vh;
 	background: url('../images/telephone2.jpg');
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -106,7 +106,9 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	position: relative;
+    position: relative;
+    margin-top: 4%;
+    
 }
 
 
@@ -130,8 +132,9 @@ body {
 /* Media query to size properly on the mobile phone size*/
 
 @media only screen and (max-width: 280px) {
-	/* Home main text in small device */
-	.display-4 {
+    /* Home main text in small device */
+        
+ 	.display-4 {
 		padding-top: 10%;
 		font-size: 1.5rem;
 		font-weight: 300;
@@ -166,6 +169,7 @@ body {
 }
 
 @media only screen and (max-width: 320px) {
+
 	.navbar-text {
 		font-size: x-small;
 	}
