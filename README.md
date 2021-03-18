@@ -99,7 +99,7 @@ Live version : [View the live project here](https://rlopezba1.github.io/Mileston
     so that the client can see exactly where the company is, and a very apropiate image where we
     can see the lawyer taking a phone call. Same navigation bar and footer to keep the corporate design.
 ## Skeleleton
-- [Wireframe in Design](./assets/documentation/responsive_design.png) 
+- [Wireframe in Design](./assets/documentation/new_project1.pdf) 
    using Balsamiq in large, medium and small devices sizes.
 - Responsive Design
     - It is important to do a previous wireframe design to structure how the web will be in the future.
