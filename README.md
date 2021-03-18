@@ -3,7 +3,7 @@
 # Lighthouse Lawyers
 [Responsive Design](https://github.com/rlopezba1/MilestoneProject1/blob/main/responsiveDesign.png)
 
-![Responsive Design](responsive_design.png)
+![Responsive Design](./assets/images/responsive_design.png)
 
 - The Lighthouse Lawyers project is a law firm website that offer legal consulting services.
 - It is a project website but it could be a real one.
@@ -99,7 +99,7 @@ Live version : [View the live project here](https://rlopezba1.github.io/Mileston
     so that the client can see exactly where the company is, and a very apropiate image where we
     can see the lawyer taking a phone call. Same navigation bar and footer to keep the corporate design.
 ## Skeleleton
-- [Wireframe in Design](https://github.com/rlopezba1/MilestoneProject1/blob/main/NewProject1.pdf) 
+- [Wireframe in Design](./assets/documentation/responsive_design.png) 
    using Balsamiq in large, medium and small devices sizes.
 - Responsive Design
     - It is important to do a previous wireframe design to structure how the web will be in the future.
