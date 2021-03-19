@@ -307,6 +307,11 @@ body {
 /* // Extra-Extra large devices (Extra-large desktops, 1400px and up) */
 
 @media (min-width: 1400px) {
+
+  .main-container-contactUs{
+        margin-top: 2%;
+    }
+   
 	.navbar-text {
 		font-size: large;
 	}
