@@ -134,6 +134,11 @@ body {
 @media only screen and (max-width: 280px) {
     /* Home main text in small device */
 
+    .main-container-contactUs{
+        margin-top: 30%;
+        background-position: center;
+    }
+
     #crime-text {
         display: flex;
         flex-direction: column-reverse;
@@ -175,6 +180,11 @@ body {
 
 @media only screen and (max-width: 320px) {
 
+    .main-container-contactUs{
+        margin-top: 30%;
+        background-position: center;
+    }
+
      #crime-text {
         display: flex;
         flex-direction: column-reverse;
@@ -192,6 +202,11 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
+
+    .main-container-contactUs{
+        margin-top: 23%;
+        background-position: center;
+    }
 
      #crime-text {
         display: flex;
