@@ -133,6 +133,11 @@ body {
 
 @media only screen and (max-width: 280px) {
     /* Home main text in small device */
+
+    #crime-text {
+        display: flex;
+        flex-direction: column-reverse;
+    }
         
  	.display-4 {
 		padding-top: 10%;
@@ -170,6 +175,11 @@ body {
 
 @media only screen and (max-width: 320px) {
 
+     #crime-text {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
 	.navbar-text {
 		font-size: x-small;
 	}
@@ -182,6 +192,11 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
+
+     #crime-text {
+        display: flex;
+        flex-direction: column-reverse;
+    }
 	.display-4 {
 		font-size: 1.5rem;
 		font-weight: 300;
